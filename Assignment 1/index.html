@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .topnav a {
+            float: left;
+            color: #efe3af;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        #selectednav{
+            background-color: #efe3af;
+            color: #333;
+        }
+        .div-a{
+            padding: 14px 16px;
+        }
+        *{
+            margin: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #mainpic{
+            margin: 20px 0px;
+            width: 80%;
+            height: auto;
+        }
+        #div-hospitalInfo{
+            padding: 20px;
+            color: #333;
+            background-color: #efe3af;
+        }
+        #div-body{
+            background-color: #333;
+        }
+        #div-mainpic{
+            width: 100%;
+            margin: 20px 0px;
+            color: #efe3af;
+        }
+        #div-mainpic h2{
+            padding: 0px 10px;
+        }
+        .btn{
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #efe3af;
+            border-color: #333;
+        }
+        .btn:hover{
+            background-color: #333;
+            color: #efe3af;
+        }
+        #div1{
+            color: #efe3af;
+            padding: 30px 50px;
+        }
+        #div-departs{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: #efe3af;
+        }
+        .departcard{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #efe3af;
+            color: #333;
+            padding: 10px;
+            border-radius: 10px;
+            border-color: #333;
+            margin: 20px;
+            justify-content: center;
+        }
+        .departimg{
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+        }
+        .departdetail{
+            height: auto;
+            width: 200px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        #footer{
+            color: #efe3af;
+        }
+    </style>
+</head>
+<body>
+    <div id="div-body">
+        <div class="topnav">
+            <a id="selectednav" href="">Home</a>
+            <a href="">Contact</a>
+            <a href="">About</a>
+            <a href="">Login</a>
+        </div>
+        <hr>
+        <div id="div-mainpic">
+            <h2>THE HOSPITAL</h2>
+            <center><img id="mainpic" src="aaa.png"></center>
+        </div>
+        <hr>
+        <div id="div-hospitalInfo">
+            <h2>THE HOSPITAL</h2>
+            <br><p>Serving & treating everyone from 2001.</p>
+            <br>
+            <button class="btn">Book an Appointment</button>
+            <button class="btn">Login</button>
+        </div>
+        <hr>
+        <div id="div1">
+            <center><h2>Departments</h2></center><br><br>
+            <div id="div-departs">
+                <br>
+                
+                <div class="departcard">
+                    <img class="departimg" src="https://alkhidmatraazi.com/rawalpindi/wp-content/uploads/2019/01/Cardiology.jpg">
+                    <div class="departdetail">
+                        <b>Cardiology</b><br>
+                        <p>A medical specialty and a branch of internal medicine concerned with disorders of the heart.</p><br>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="departcard">
+                    <img class="departimg" src="https://www.regionalneurological.com/wp-content/uploads/2019/12/AdobeStock_172813720.jpeg">
+                    <div class="departdetail">
+                        <b>Neurology</b><br>
+                        <p>Neurology is a branch of medicine dealing with disorders of the nervous system.</p><br>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="departcard">
+                    <img class="departimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSHVuD9aN7WBXblvPCZDjUnHxqqOV3fqm_Jw&usqp=CAU">
+                    <div class="departdetail">
+                        <b>Child Specialist</b><br>
+                        <p>A healthcare professional who is trained in the emotional and developmental needs of children.</p><br>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="departcard">
+                    <img class="departimg" src="https://maxhealthhospitals.com/wp-content/uploads/2022/01/ENT.webp">
+                    <div class="departdetail">
+                        <b>ENT</b><br>
+                        <p>A doctor who has special training in diagnosing and treating diseases of the ear, nose, and throat</p><br>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="departcard">
+                    <img class="departimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqx8ECzMUDJ09QmJScEUDZKws2Qoyp3Y3jSg&usqp=CAU">
+                    <div class="departdetail">
+                        <b>Surgeon</b><br>
+                        <p>A surgeon is a doctor who specializes in evaluating and treating conditions that may require surgery, or physically changing the human body.</p><br>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="departcard">
+                    <img class="departimg" src="https://t4.ftcdn.net/jpg/03/02/68/11/360_F_302681154_9HOWdvGLtCKpfwO5B85yESszG7MfmlUl.jpg">
+                    <div class="departdetail">
+                        <b>Dentist</b><br>
+                        <p>Skilled in the prevention, diagnosis, and treatment of diseases, injuries, and malformations of the teeth, jaws, and mouth</p><br>
+                        <button class="btn">Learn More</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <hr>
+        <div id="footer">
+            <br>
+            <center>THE HOSPITAL &copy;</center>
+            <br>
+        </div>
+        
+        
+
+    </div>
+</body>
+</html>
