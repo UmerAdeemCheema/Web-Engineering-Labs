@@ -1,0 +1,51 @@
+#task2 p{
+    font-size: 1.5em;
+    color: red;
+}
+
+body{
+    background-color: wheat;
+    padding: auto;
+    background-image: url("../Task1/assets/hospitalbanner.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position-y: 50%;
+    background-size: 50%;
+    
+}
+
+#task4 h1, #task4 h2{
+    padding: 0.5em;
+    margin: 0.5em;
+    border: #333 dashed;
+}
+
+#task5 h1{
+    color: blue;
+}
+
+#task5 a{
+    color: blue;
+    text-decoration: none;
+}
+#task5 a:hover{
+    color: yellow;
+}
+
+.navbtn{
+    padding: 10px;
+    width: fit-content;
+    margin: 5px;
+    background-color: #333;
+    border-radius: 5px;
+    border-color: #333;
+    color: wheat;
+}
+
+.navbtn:hover{
+    background-color: wheat;
+    color: #333;
+}
+.navbtn a{
+    text-decoration: none;
+}

@@ -1,0 +1,74 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: wheat;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+header{
+    padding: 14px 16px;
+}
+.div-a{
+    background-color: wheat;
+    color: #333;
+}
+.departList{
+    padding: 14px 16px;
+    margin: auto;
+    width: fit-content;
+}
+header h1{
+    padding: 14px 16px;
+    color: #333;
+}
+.div-a1{
+    padding: 60px 16px;
+    background-color: #333;
+    color: wheat;
+}
+
+.forms{
+    padding: 14px 16px;
+    margin: auto;
+    width: fit-content;
+}
+
+.forms input[type=text], .forms input[type=password], .forms input[type=email], .forms textarea{
+    margin: 0px 10px;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    color: #333;
+}
+.forms input[type=button], .btn{
+    padding: 10px;
+    width: fit-content;
+    margin: 5px 50px;
+    background-color: #333;
+    color: wheat;
+    border-radius: 5px;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 14px 16px;
+    background-color: #333;
+    color: wheat;
+}
+
+*{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: wheat;
+}
