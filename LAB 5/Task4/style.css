@@ -1,0 +1,27 @@
+#mainDiv{
+    padding: 30px;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 20px;
+    display: inline;
+    color: white;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#brown{
+    background-color: brown;
+}
+#blue{
+    background-color: blue;
+}
+#grey{
+    background-color: grey;
+}

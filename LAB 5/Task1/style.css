@@ -1,0 +1,47 @@
+#header{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+#userInput{
+    padding: 10px;
+}
+
+#add{
+    padding: 10px;
+}
+
+#list{
+    margin: 20px;
+    list-style-type:none;
+}
+
+li input{
+    margin-left: 20px;
+    padding: 5px;
+}
+
+li:hover , li input:hover{
+    cursor:pointer;
+}
+
+
+.liOn{
+    padding: 10px;
+    background-color: blanchedalmond;
+    
+}
+
+.liDone{
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    text-decoration: line-through;
+}
+
+li{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
